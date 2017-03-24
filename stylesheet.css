@@ -1,0 +1,45 @@
+.activity-feed {
+  font-family: sans-serif;
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+.activity-feed a{
+	text-decoration: none;
+	color: #3696d5;
+}
+
+.item{
+	max-width: 767px;
+	border: 2px solid #ecf0f0;
+	border-radius: 5px;
+	padding: 17px;
+	margin: 50px 10px;
+	list-style-type: decimal;
+	font-size: ;
+}
+
+.date {
+	float: right;
+	font-size: 18px;
+	margin: 3px 3px 3px 50px;
+}
+
+.item-header{
+	font-size: 22px;
+}
+
+
+.item-copy{
+	color: #c2c6ca;
+	line-height: 28px;
+	font-size: 18px;
+}
+
+@media (max-width: 767px) {
+	
+	.date{
+		float: none;
+		margin: 10px 0px;
+	}
+}
